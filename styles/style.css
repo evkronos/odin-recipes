@@ -9,6 +9,7 @@
 
 .lista-receitas {
     list-style: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .lista-receitas a {

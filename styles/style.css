@@ -21,3 +21,9 @@
 .titulo,.nome-receita {
     text-align: center;
 }
+
+.home{
+    display: block;
+    text-align: right;
+    font-size: 18px;
+}

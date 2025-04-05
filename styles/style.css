@@ -1,3 +1,5 @@
+/* type selectors */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +9,57 @@
 body {
     width: 80%;
     margin: 10px auto;
-    padding: 8px;
     border: 2px solid #000;
     border-radius: 10px;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* class selectors */
+
+.header {
+    background-color: #803434;
+    border: 1px solid brown;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.header a {
+    color: #a39595;
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.end {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar {
+    border: 2px solid #803434;
+    border-radius: 5px;
+    background-color: #a39595;
+    padding: 10px;
+}
+
 
 .container-imagem {
     text-align: center;
@@ -28,7 +77,6 @@ body {
 }
 
 .lista-receitas a {
-    text-decoration: none;
     color: #000;
     font-size: 18px;
 }

@@ -61,6 +61,25 @@ ul {
     padding: 10px;
 }
 
+/* .container-receitas {
+    display: flex;
+    margin: 0 auto;
+} */
+
+.lista-receitas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.lista-receitas img {
+    display: flex;
+    flex: 1 1 200px;
+    width: 350px;
+    height: 250px;
+    padding: 8px;
+}
 
 .container-imagem {
     text-align: center;
